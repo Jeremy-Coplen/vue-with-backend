@@ -1,7 +1,6 @@
 require("dotenv").config()
 const express = require("express")
 const session = require("express-session")
-const res = require("express/lib/response")
 
 // Array for data to be stored temporarily since there is no db in this project
 let data = [
